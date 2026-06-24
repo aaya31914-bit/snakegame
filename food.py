@@ -8,7 +8,7 @@ class Food(Turtle):
         self.shape("circle")
         self.color("red")
         self.penup()
-        self.shapesize(0.4, 0.5)
+        self.shapesize(0.4, 0.4)
         self.appear()
 
     def appear(self):
