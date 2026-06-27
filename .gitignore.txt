@@ -1,1 +1,13 @@
-ignore all .txt files
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment/local files
+.env
+.venv
+.vscode/
+
+# Highscore files (if you want to keep them local)
+highscore.txt

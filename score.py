@@ -7,7 +7,7 @@ class Scoreboard(Turtle):
         super().__init__()
         self.score = 0
         self.highscore = self.get_highscore()
-        self.color("red")
+        self.color("blue")
 
         self.penup()
         self.goto(0, 250)
@@ -39,5 +39,5 @@ class Scoreboard(Turtle):
             self.highscore = self.score
             self.save_highscore()
         self.write(
-            f" ------- Game over ------- \n \n     Final score: {self.score} \n \n     High score: {self.highscore}", align="center", font=("Arial", 20, "normal"))
+            f" ------- Game over ------- \n \n       Final score: {self.score} \n \n       High score: {self.highscore}", align="center", font=("Arial", 20, "normal"))
         self.hideturtle()
